@@ -26,3 +26,5 @@
 1. [TapeEquilibrium](https://app.codility.com/demo/results/trainingBUVRCX-7VQ/)
 2. [MaxNonoverlappingSegments](https://app.codility.com/demo/results/trainingNS8Z8V-MYY/)
 3. [MissingInteger](https://app.codility.com/demo/results/training9MRDT6-9R7/)
+4. [BinaryGap](https://app.codility.com/demo/results/trainingRJQHQP-N9V/)
+5. [CyclicRotation](https://app.codility.com/demo/results/trainingC4NUZ7-AFS/)
