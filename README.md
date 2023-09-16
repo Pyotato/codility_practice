@@ -10,8 +10,7 @@
 > 🌟 Keep track of solutions to improve use of Javascript itself
 > 🌟 Boost problem-solving abilities
 > 🌟 Improve time-complexity
-![download](https://github.com/Pyotato/codility_practice/assets/102423086/b05a0ca2-f8bd-49e2-bfb9-049e8d0eeea9)
-
+> ![download](https://github.com/Pyotato/codility_practice/assets/102423086/b05a0ca2-f8bd-49e2-bfb9-049e8d0eeea9)
 
 # When
 
@@ -33,3 +32,4 @@
 6. [FrogRiverOne](https://app.codility.com/demo/results/trainingXZ7PP2-WTN/)
 7. [PassingCars](https://app.codility.com/demo/results/trainingWYBJ3T-C6A/)
 8. [Distinct](https://app.codility.com/demo/results/trainingANYW26-QHG/)
+9. [CountDiv](https://app.codility.com/demo/results/training9GGS4C-746/)
