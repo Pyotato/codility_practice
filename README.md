@@ -30,3 +30,4 @@
 5. [CyclicRotation](https://app.codility.com/demo/results/trainingC4NUZ7-AFS/)
 6. [FrogRiverOne](https://app.codility.com/demo/results/trainingXZ7PP2-WTN/)
 7. [PassingCars](https://app.codility.com/demo/results/trainingWYBJ3T-C6A/)
+8. [Distinct](https://app.codility.com/demo/results/trainingANYW26-QHG/)
