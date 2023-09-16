@@ -10,6 +10,7 @@
 > 🌟 Keep track of solutions to improve use of Javascript itself
 > 🌟 Boost problem-solving abilities
 > 🌟 Improve time-complexity
+> 🌟 Aim : O(1) , O(log n), O(n), O(nlogn)
 
 # When
 
