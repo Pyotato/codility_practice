@@ -10,7 +10,8 @@
 > 🌟 Keep track of solutions to improve use of Javascript itself
 > 🌟 Boost problem-solving abilities
 > 🌟 Improve time-complexity
-> 🌟 Aim : O(1) , O(log n), O(n), O(nlogn)
+![download](https://github.com/Pyotato/codility_practice/assets/102423086/b05a0ca2-f8bd-49e2-bfb9-049e8d0eeea9)
+
 
 # When
 
