@@ -33,3 +33,4 @@
 7. [PassingCars](https://app.codility.com/demo/results/trainingWYBJ3T-C6A/)
 8. [Distinct](https://app.codility.com/demo/results/trainingANYW26-QHG/)
 9. [CountDiv](https://app.codility.com/demo/results/training9GGS4C-746/)
+10. [MaxProductOfThree](https://app.codility.com/demo/results/training6JW8AD-5N6/)
