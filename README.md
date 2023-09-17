@@ -36,3 +36,4 @@
 9. [CountDiv](https://app.codility.com/demo/results/training9GGS4C-746/)
 10. [MaxProductOfThree](https://app.codility.com/demo/results/training6JW8AD-5N6/)
 11. [Brackets](https://app.codility.com/demo/results/trainingC65JAQ-KDQ/)
+12. [PermCheck](https://app.codility.com/demo/results/trainingYCZ67S-YTV/)
