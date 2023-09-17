@@ -21,6 +21,7 @@
 > Solve 2 ~ 3 questions within the given time per day.
 > if solved : Find room for Improvement.
 > else : After the time runs up, search for solutions, mark as failed & try solving it again without referencing sources.
+> Commit rule example: `Lesson 5 [ Prefix Sums ]: CountDiv`
 
 # Sol
 
@@ -34,3 +35,4 @@
 8. [Distinct](https://app.codility.com/demo/results/trainingANYW26-QHG/)
 9. [CountDiv](https://app.codility.com/demo/results/training9GGS4C-746/)
 10. [MaxProductOfThree](https://app.codility.com/demo/results/training6JW8AD-5N6/)
+11. [Brackets](https://app.codility.com/demo/results/trainingC65JAQ-KDQ/)
