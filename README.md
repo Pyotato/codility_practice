@@ -39,3 +39,4 @@
 12. [PermCheck](https://app.codility.com/demo/results/trainingYCZ67S-YTV/)
 13. [Fish](https://app.codility.com/demo/results/training6A4RR4-NBF/)
 14. [NumberSolitaire](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
+15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
