@@ -40,3 +40,4 @@
 13. [Fish](https://app.codility.com/demo/results/training6A4RR4-NBF/)
 14. [NumberSolitaire](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
 15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
+16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
