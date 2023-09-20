@@ -42,3 +42,6 @@
 15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
 16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
 17. [FibFrog](https://app.codility.com/demo/results/training4NST5Q-BBG/)
+18. [MinAbsSum](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
+19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
+20. [AbsDistinct](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
