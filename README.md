@@ -45,3 +45,4 @@
 18. [MinAbsSum](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
 19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
 20. [AbsDistinct](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
+21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
