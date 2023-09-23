@@ -47,3 +47,4 @@
 20. [AbsDistinct](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
 21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
 22. [CountNonDivisible](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
+23. [OddOccurrencesInArray](https://app.codility.com/demo/results/trainingFVD2GP-4HF/)
