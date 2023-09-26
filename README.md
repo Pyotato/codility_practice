@@ -52,3 +52,4 @@
 25. [TieRopes](https://app.codility.com/demo/results/training5UV2KD-98X/)
 26. [MinAvgTwoSlice](https://app.codility.com/demo/results/trainingE3ZNZM-3HT/)
 27. [Ladder](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
+28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
