@@ -49,4 +49,5 @@
 22. [CountNonDivisible](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
 23. [OddOccurrencesInArray](https://app.codility.com/demo/results/trainingFVD2GP-4HF/)
 24. [PermMissingElem](https://app.codility.com/demo/results/training6U4Y97-NBZ/)
-25. [TieRopes](https://app.codility.com/demo/results/training5UV2KD-98X/) 
+25. [TieRopes](https://app.codility.com/demo/results/training5UV2KD-98X/)
+26. [MinAvgTwoSlice](https://app.codility.com/demo/results/trainingE3ZNZM-3HT/)
