@@ -55,3 +55,5 @@
 28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
 29. [CountDistinctSlices](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
 30. [MinMaxDivision](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
+31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
+32. 
