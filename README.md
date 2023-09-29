@@ -56,4 +56,4 @@
 29. [CountDistinctSlices](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
 30. [MinMaxDivision](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
 31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
-32. 
+32. [EquiLeader](https://app.codility.com/demo/results/training2ANQCA-ZNA/)
