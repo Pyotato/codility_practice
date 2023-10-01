@@ -60,3 +60,4 @@
 33. [MaxProfit](https://app.codility.com/demo/results/training2Z8HE2-5VQ/)
 34. [CountFactors](https://app.codility.com/demo/results/trainingT634AA-BDC/)
 35. [NailingPlanks](https://app.codility.com/demo/results/trainingGDBM2S-NKR/)
+36. [CountTriangles](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
