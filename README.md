@@ -62,3 +62,4 @@
 35. [NailingPlanks](https://app.codility.com/demo/results/trainingGDBM2S-NKR/)
 36. [CountTriangles](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
 37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
+38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
