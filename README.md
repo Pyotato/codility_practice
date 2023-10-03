@@ -64,3 +64,4 @@
 37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
 38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
 39. [Lesson 15 [ Caterpillar method ]: MinAbsSumOfTwo](https://app.codility.com/demo/results/training437UXH-2TK/)
+40. [Lesson 6 [ Sorting ]:  NumberOfDiscIntersections](https://app.codility.com/demo/results/training9N372J-G9V/)
