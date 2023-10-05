@@ -67,3 +67,4 @@
 40. [Lesson 6 [ Sorting ]: NumberOfDiscIntersections](https://app.codility.com/demo/results/training9N372J-G9V/)
 41. [Lesson 9 [ Maximum slice problem ]: MaxSliceSum](https://app.codility.com/demo/results/trainingK8EJD8-S6H/)
 42. [Lesson 7 [ Stacks and Queues ]: StoneWall](https://app.codility.com/demo/results/training4Q23DG-B2K/)
+43. [Lesson 9 [ Maximum slice problem ]: MaxDoubleSliceSum](https://app.codility.com/demo/results/trainingEWTQGP-5Y5/)
