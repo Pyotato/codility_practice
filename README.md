@@ -70,3 +70,4 @@
 43. [Lesson 9 [ Maximum slice problem ]: MaxDoubleSliceSum](https://app.codility.com/demo/results/trainingEWTQGP-5Y5/)
 44. [Lesson 10 [ Prime and composite numbers ]: MinPerimeterRectangle](https://app.codility.com/demo/results/trainingPXCEXU-F7X/)
 45. [Lesson 10 [ Prime and composite numbers ]: Flags](https://app.codility.com/demo/results/training5B5Q46-DSE/)
+45. [ Lesson 10 [ Prime and composite numbers ]: Peaks](https://app.codility.com/demo/results/trainingHU9KKU-WNY/)
