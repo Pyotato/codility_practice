@@ -71,3 +71,5 @@
 44. [Lesson 10 [ Prime and composite numbers ]: MinPerimeterRectangle](https://app.codility.com/demo/results/trainingPXCEXU-F7X/)
 45. [Lesson 10 [ Prime and composite numbers ]: Flags](https://app.codility.com/demo/results/training5B5Q46-DSE/)
 46. [Lesson 12 [ Euclidean algorithm ]: CommonPrimeDivisors](https://app.codility.com/demo/results/training4V3Q5A-J6T/)
+47. [ Lesson 10 [ Prime and composite numbers ]: 
+Peaks](https://app.codility.com/demo/results/trainingHU9KKU-WNY/)
