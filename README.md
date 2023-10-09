@@ -25,7 +25,7 @@
 
 # Sol
 
-1. [TapeEquilibrium](https://app.codility.com/demo/results/trainingBUVRCX-7VQ/)
+1. [Lesson 3 [ Time Complexity ]: TapeEquilibrium](https://app.codility.com/demo/results/trainingBUVRCX-7VQ/) 
 2. [MaxNonoverlappingSegments](https://app.codility.com/demo/results/trainingNS8Z8V-MYY/)
 3. [MissingInteger](https://app.codility.com/demo/results/training9MRDT6-9R7/)
 4. [BinaryGap](https://app.codility.com/demo/results/trainingRJQHQP-N9V/)
