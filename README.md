@@ -27,32 +27,38 @@ n개의 동전 단위  0 < c<sub>0</sub> <= c<sub>1</sub> <= . . . <= c<sub>n-1<
 function dynamic_coin_changing (C,k){
   const n = C.length;
   // 0으로 채워진 2차원 배열 만들기
-  const dp = new Array((n+1)).fill((new Array(k+1).fill([0])))
-  dp[0] = [0] + [Infinity]*k
+  const dp = new Array((n+1)).fill((new Array(k+1).fill(0)));
+  dp[0].fill(Infinity);
+  dp[0][0] = 0;
   for(let i=1; i<n+1; i++){
-    for(let j in C[i-1]) dp[i][j] = dp[i-1][j]
-    for(let j= C[i-1] ; j<k+1; j++) dp[i][j] = min(dp[i][j-C[i-1]+1, dp[i-1][j])
+    for(let j in C[i-1])dp[i][j] = dp[i-1][j];
+    for(let j= C[i-1] ; j<k+1; j++)dp[i][j] = Math.min(dp[i][j - C[i - 1]] + 1,  dp[i - 1][j]);
   }
   return dp[n];
 }
+
 ```
 
 * 위의 풀이에서 모든 행의 결과를 기억할 필요없이 이전 행의 결과만 필요하다는 점에서 메모리 최적화를 할 수 있다. 따라서 시간복잡도 `*O*(n*k)`, 공간 복잡도 `*O*(k)`인 풀이로 최적화를 할 수 있다.
 
 ```javascript
-  function dynamic_coin_changing (C,k){
+ function dynamic_coin_changing (C,k){
     const n = C.length;
     const dp = new Array(k+1).fill(Infinity);
-    dp[0] = [0];
+    dp[0] = 0;
     for(let i =1 ; i< n+1; i++){
       for(let j=C[i-1] ; j<k+1; j++){
-        dp[j] = Math.min(dp[j-C[i-1]]+1,dp[j])
+        dp[j] = Math.min(dp[j-C[i-1]]+1,dp[j]);
       }
     }
     return dp;
   }
 
 ```
+
+#### 예시 2 : 동전 바꾸기 문제
+
+----
 
 # Sol
 
