@@ -42,7 +42,7 @@
 15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
 16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
 17. [FibFrog](https://app.codility.com/demo/results/training4NST5Q-BBG/)
-18. [MinAbsSum](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
+18. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [MinAbsSum](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/MinAbsSum.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
 19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
 20. [AbsDistinct](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
 21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
