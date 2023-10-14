@@ -85,5 +85,5 @@ function dynamic_coin_changing (C,k){
 
 # Sol
 
-1. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [NumberSolitaire](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
+1. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [NumberSolitaire](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/NumberSolitaire.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
 2. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [MinAbsSum](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
