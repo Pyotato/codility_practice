@@ -66,7 +66,7 @@ I+K만큼 이동을 한다. 만약 이동이 불가능하다면 이동할 수 �
 * 풀이
 ```javascript
 function solution(A) {
-    const d = 6; // 주사위 1~6
+    const d = 6; // 주사위눈은 6
     const n = A.length;
     const dp = new Array(d).fill(A[0]); //동적프로그래밍 -> 값들을 저장할 배열
     // 말이 이동할 수 있는 보드 위치는 결국 6으로 나눈 modulo 값들 뿐
