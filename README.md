@@ -38,7 +38,7 @@
 11. [Brackets](https://app.codility.com/demo/results/trainingC65JAQ-KDQ/)
 12. [PermCheck](https://app.codility.com/demo/results/trainingYCZ67S-YTV/)
 13. [Fish](https://app.codility.com/demo/results/training6A4RR4-NBF/)
-14. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [NumberSolitaire](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
+14. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [NumberSolitaire](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/NumberSolitaire.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
 15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
 16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
 17. [FibFrog](https://app.codility.com/demo/results/training4NST5Q-BBG/)
