@@ -26,7 +26,7 @@
 # Sol
 
 1. [TapeEquilibrium](https://app.codility.com/demo/results/trainingBUVRCX-7VQ/) : [`Sol2`](https://app.codility.com/demo/results/trainingBVN2K9-XM5/)
-2. [MaxNonoverlappingSegments](https://app.codility.com/demo/results/trainingNS8Z8V-MYY/)
+2.  [ [Lesson 16 Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [MaxNonoverlappingSegments](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/MaxNonoverlappingSegments.md) [👉to report](https://app.codility.com/demo/results/trainingNS8Z8V-MYY/)
 3. [MissingInteger](https://app.codility.com/demo/results/training9MRDT6-9R7/)
 4. [BinaryGap](https://app.codility.com/demo/results/trainingRJQHQP-N9V/)
 5. [CyclicRotation](https://app.codility.com/demo/results/trainingC4NUZ7-AFS/)
