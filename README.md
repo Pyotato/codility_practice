@@ -13,4 +13,4 @@
 # Sol
 
 1. [ [Lesson 16  Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [MaxNonoverlappingSegments](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/NumberSolitaire.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
-2. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [MinAbsSum](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/MinAbsSum.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
+2. [ [Lesson 16  Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [TieRopes](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/TieRopes.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
