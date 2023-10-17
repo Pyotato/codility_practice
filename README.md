@@ -93,5 +93,5 @@ function greedyCanoeistB(W, k){
 
 # Sol
 
-1. [ [Lesson 16  Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [MaxNonoverlappingSegments](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/NumberSolitaire.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
+1. [ [Lesson 16  Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [MaxNonoverlappingSegments](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/MaxNonoverlappingSegments.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
 2. [ [Lesson 16  Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [TieRopes](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/TieRopes.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
