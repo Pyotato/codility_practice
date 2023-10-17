@@ -18,10 +18,11 @@
 
 # How
 
-> Solve 2 ~ 3 questions within the given time per day.
-> if solved : Find room for Improvement.
-> else : After the time runs up, search for solutions, mark as failed & try solving it again without referencing sources.
-> Commit rule example: `Lesson 5 [ Prefix Sums ]: CountDiv`
+> * Solve 2 ~ 3 questions within the given time per day.
+> * if solved : Find room for Improvement.
+> * else : After the time runs up, search for solutions, mark as failed & try solving it again without referencing sources.
+> * Commit rule example: `Lesson 5 [ Prefix Sums ]: CountDiv [👉to report]`
+> * All examples in reading materials should be converted python => javascript
 
 # Sol
 
