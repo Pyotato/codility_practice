@@ -1,66 +1,69 @@
-# codility_practice
+# Caterpillar-method
 
-# What
+## Reading Material
+* [[reference]](https://codility.com/media/train/13-CaterpillarMethod.pdf)
+### Caterpillar-method
+> 애벌레 방식은 인기 있는 알고리즘 풀이 방식 중 하나의 애칭이다. 아이디어는 각각의 요소를 애벌레가 기어가는 모습처럼 확인하는 방식이다. 애벌레는 배열을 기어서 통과한다고 하자. 애벌레의 앞과 뒤 위치를 기억하고, 매 단계마다 둘의 위치가 앞으로 땡껴지는 모습을 생각하면 된다.
+![giphy](https://github.com/Pyotato/codility_practice/assets/102423086/fae1bf3e-9fb3-4d21-bf4d-cbc09e66a0bb)
 
-> This repository contains notes and solutions from [Codility](https://app.codility.com/programmers/)
-> 🤭 Selection of Language : JS(primarily)
+#### 예시 1 : 연속된 수의 합이 특정수를 만족하는 지 존재 여
+> * a<sub>0</sub>, a<sub>1</sub>, . . . , a<sub>n-1</sub>(1 <= a<sub>i</sub> <= 109)에서 연속된 수들의 합이 s를 만족하는 지 여부를 확인하자. 예를 들어 s=12일 경우
+![image](https://github.com/Pyotato/codility_practice/assets/102423086/26e11a8f-c643-4eae-8a1b-dc06ca19eb46)
+* 애벌레의 각 위치는 다른 연속된 수를 포함한 부분이며 s보다 작다. 애벌레의 첫위치를 첫 원소에 배치하자. 다음으로는 아래와 같은 단계를 실행하면 된다.
+   * 가능하다면 오른쪽 끝(머리)를 앞으로 놓고 애벌레의 크기를 키운다.
+   * 그러지 않을 경우, 왼쪽 끝 (꼬리)를 앞으로 놓고 애벌레의 크기를 줄인다.
+* 이 방식을 통해, 왼쪽과 오른쪽의 각 위치에서 s를 초과하지 않는 가장 긴 애벌레의 길이를 알 수 있다. s와 연속된 수의 총합이 같은 경우가 있다면 애벌레의 길이가 모든 원소들을 통과한 경우가 존재한다.
 
-# Why
 
-> 🌟 Keep track of solutions to improve use of Javascript itself
-> 🌟 Boost problem-solving abilities
-> 🌟 Improve time-complexity
-> ![download](https://github.com/Pyotato/codility_practice/assets/102423086/b05a0ca2-f8bd-49e2-bfb9-049e8d0eeea9)
+##### 구현
+* 시간복잡도와 공간복잡도 *O*(n)인 풀이 :
+`※원본의 코드는 파이썬으로 작성되어있다.`
+```javascript
+function caterpillarMethod(A,s){
+  const n = A.length;
+  let front=0, total = 0;
+  for(let back= 0; back<n; back++){
+    while(front<n && total+A[front] <= s){
+      total+=A[front];
+      front++;
+    }
+    if(total === s) return true;
+    total -= A[back];
+  }
+  return false;
+}
 
-# When
+```
 
-> Commenced : 2023-09-12
+* 위의 풀이의 시간복잡도를 예상해보자. 첫눈에 볼 떄는 for문 안에 또 while문이 있어서 n<sup>2</sup>라고 예상할 수 있다. 하지만 각 단계에서 애벌레가 앞 또는 뒤로 이동하고 각각의 위치가 n을 초과할 수 없으므로 *O*(n) 인 풀이 방법이 된다.
 
-# How
+#### 예시 2 : 막대기로 삼각형 만들기
+> 길이가 1 <= a<sub>0</sub> <= a<sub>1</sub> <= . . . <= a<sub>n−1</sub> <= 10<sup>9</sup>인 n개의 막대가 주어진다. 목표는 이 막대들을 활용해 만들 수 있는 삼각형의 개수를 구하는 것이다. 정확히는 각 인덱스 x<y<z에 관해 a<sub>x</sub> + a<sub>y</sub> > a<sub>z</sub>을 만족해야한다.
 
-> Solve 2 ~ 3 questions within the given time per day.
-> if solved : Find room for Improvement.
-> else : After the time runs up, search for solutions, mark as failed & try solving it again without referencing sources.
-> Commit rule example: `Lesson 5 [ Prefix Sums ]: CountDiv`
+* **Sol** *O*(n<sup>2</sup>)인 경우
+* 각 짝 x,y에 관해 가장 큰 막대기 z를 갖고 삼각형을 만들 수 있다. 각 막대기 k는 y<k<=z 또한 a<sub>x</sub> + a<sub>y</sub> > a<sub>k</sub>를 만족하므로 이 또한 경우에 해당된다. 한번에 이 모든 삼각형들을 더해주면 된다.
+* z가 매번 처음에 발견된다면 시간복잡도는 *O*(n<sup>3</sup>)이 된다. 하지만 대신, 애벌레 방식을 사용하면 y를 증가시킬 때 z도 가능한 증가 시킬 수 있다. 
+
+##### 구현 : 시간복잡도가 O(n<sup>2</sup>):
+`※원본의 코드는 파이썬으로 작성되어있다.`
+```javascript
+function triangles(A) {
+  const n = A.length;
+  let result = 0;
+  for (let x = 0; x < n; x++) {
+    let z = x + 2;
+    for (let y = x + 1; y < n; y++) {
+      while (z < n && A[x] + A[y] > A[z]) z++;
+      result += z - y - 1;
+    }
+  }
+  return result;
+}
+```
+* 해당 알고리즘의 시간복잡도는 O(n<sup>2</sup>이다. 왜냐하면 각 막대기 x에 관해 y와 z값은 O(n<sup>2</sup> 번 증가하기 때문이다.
+
+----
 
 # Sol
 
-1. [TapeEquilibrium](https://app.codility.com/demo/results/trainingBUVRCX-7VQ/)
-2. [MaxNonoverlappingSegments](https://app.codility.com/demo/results/trainingNS8Z8V-MYY/)
-3. [MissingInteger](https://app.codility.com/demo/results/training9MRDT6-9R7/)
-4. [BinaryGap](https://app.codility.com/demo/results/trainingRJQHQP-N9V/)
-5. [CyclicRotation](https://app.codility.com/demo/results/trainingC4NUZ7-AFS/)
-6. [FrogRiverOne](https://app.codility.com/demo/results/trainingXZ7PP2-WTN/)
-7. [PassingCars](https://app.codility.com/demo/results/trainingWYBJ3T-C6A/)
-8. [Distinct](https://app.codility.com/demo/results/trainingANYW26-QHG/)
-9. [CountDiv](https://app.codility.com/demo/results/training9GGS4C-746/)
-10. [MaxProductOfThree](https://app.codility.com/demo/results/training6JW8AD-5N6/)
-11. [Brackets](https://app.codility.com/demo/results/trainingC65JAQ-KDQ/)
-12. [PermCheck](https://app.codility.com/demo/results/trainingYCZ67S-YTV/)
-13. [Fish](https://app.codility.com/demo/results/training6A4RR4-NBF/)
-14. [NumberSolitaire](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
-15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
-16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
-17. [FibFrog](https://app.codility.com/demo/results/training4NST5Q-BBG/)
-18. [MinAbsSum](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
-19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
-20. [AbsDistinct](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
-21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
-22. [CountNonDivisible](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
-23. [OddOccurrencesInArray](https://app.codility.com/demo/results/trainingFVD2GP-4HF/)
-24. [PermMissingElem](https://app.codility.com/demo/results/training6U4Y97-NBZ/)
-25. [TieRopes](https://app.codility.com/demo/results/training5UV2KD-98X/)
-26. [MinAvgTwoSlice](https://app.codility.com/demo/results/trainingE3ZNZM-3HT/)
-27. [Ladder](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
-28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
-29. [CountDistinctSlices](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
-30. [MinMaxDivision](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
-31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
-32. [EquiLeader](https://app.codility.com/demo/results/training2ANQCA-ZNA/)
-33. [MaxProfit](https://app.codility.com/demo/results/training2Z8HE2-5VQ/)
-34. [CountFactors](https://app.codility.com/demo/results/trainingT634AA-BDC/)
-35. [NailingPlanks](https://app.codility.com/demo/results/trainingGDBM2S-NKR/)
-36. [CountTriangles](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
-37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
-38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
-39. [Lesson 15 [ Caterpillar method ]: MinAbsSumOfTwo](https://app.codility.com/demo/results/training437UXH-2TK/)
+1. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [AbsDistinct](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/AbsDistinct.md) [👉to report](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
