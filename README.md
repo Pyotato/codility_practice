@@ -45,7 +45,7 @@
 17. [FibFrog](https://app.codility.com/demo/results/training4NST5Q-BBG/)
 18. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [MinAbsSum](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/MinAbsSum.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
 19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
-20. [AbsDistinct](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
+20. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [AbsDistinct](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/AbsDistinct.md) [👉to report](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
 21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
 22. [CountNonDivisible](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
 23. [OddOccurrencesInArray](https://app.codility.com/demo/results/trainingFVD2GP-4HF/)
