@@ -17,6 +17,7 @@
 | A[4]  | 1 | 
 | A[5] | 1 | 
 | A[6] | 3 | 
+
 밧줄은 아래와 같이 놓여있다.
 
 ![image](https://github.com/Pyotato/codility_practice/assets/102423086/d7f36866-4286-47e2-a65a-56963e751ac0)
