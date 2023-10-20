@@ -62,7 +62,7 @@
 33. [MaxProfit](https://app.codility.com/demo/results/training2Z8HE2-5VQ/)
 34. [CountFactors](https://app.codility.com/demo/results/trainingT634AA-BDC/)
 35. [NailingPlanks](https://app.codility.com/demo/results/trainingGDBM2S-NKR/)
-36. [CountTriangles](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
+36.  [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountTriangles](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountTriangles.md) [👉to report](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
 37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
 38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
 39. [Lesson 15 [ Caterpillar method ]: MinAbsSumOfTwo](https://app.codility.com/demo/results/training437UXH-2TK/)
