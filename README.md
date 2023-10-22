@@ -23,6 +23,7 @@
 > * else : After the time runs up, search for solutions, mark as failed & try solving it again without referencing sources.
 > * Commit rule example: `Lesson 5 [ Prefix Sums ]: CountDiv [👉to report]`
 > * All examples in reading materials should be converted python => javascript
+> * After solving all lessons, add translations for each reading material & problems.
 
 # Sol
 
