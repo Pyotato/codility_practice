@@ -60,7 +60,7 @@ function triangles(A) {
   return result;
 }
 ```
-* 해당 알고리즘의 시간복잡도는 O(n<sup>2</sup>이다. 왜냐하면 각 막대기 x에 관해 y와 z값은 O(n<sup>2</sup> 번 증가하기 때문이다.
+* 해당 알고리즘의 시간복잡도는 O(n<sup>2</sup>)이다. 왜냐하면 각 막대기 x에 관해 y와 z값은 O(n<sup>2</sup> 번 증가하기 때문이다.
 
 ----
 
