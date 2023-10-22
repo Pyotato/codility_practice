@@ -65,7 +65,7 @@
 36.  [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountTriangles](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountTriangles.md) [👉to report](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
 37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
 38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
-39. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountTriangles](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/MinAbsSumOfTwo.md) [👉to report](https://app.codility.com/demo/results/training437UXH-2TK/)
+39. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [MinAbsSumOfTwo](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/MinAbsSumOfTwo.md) [👉to report](https://app.codility.com/demo/results/training437UXH-2TK/)
 40. [Lesson 6 [ Sorting ]: NumberOfDiscIntersections](https://app.codility.com/demo/results/training9N372J-G9V/)
 41. [Lesson 9 [ Maximum slice problem ]: MaxSliceSum](https://app.codility.com/demo/results/trainingK8EJD8-S6H/)
 42. [Lesson 7 [ Stacks and Queues ]: StoneWall](https://app.codility.com/demo/results/training4Q23DG-B2K/)
