@@ -56,7 +56,7 @@
 28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
 29. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountDistinctSlices](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountDistinctSlices.md) [👉to report](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
 
-30. [MinMaxDivision](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
+30. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [MinMaxDivision](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/MinMaxDivision.md) [👉to report](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
 31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
 32. [EquiLeader](https://app.codility.com/demo/results/training2ANQCA-ZNA/)
 33. [MaxProfit](https://app.codility.com/demo/results/training2Z8HE2-5VQ/)
