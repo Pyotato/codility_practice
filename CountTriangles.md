@@ -63,7 +63,7 @@
 # Solution 1 : for문2번으로 돌고 count를 머리와 꼬리의 위치 이동만 있을 경우만 세주는 풀이
 * 사용언어 : javascript
 * 점수 : 100
-* 시간 복잡도 : **O(N**2)** 
+* 시간 복잡도 : **O(N<sup>2</sup>)** 
 * 풀이
 ```javascript
 function solution(A) {
@@ -87,7 +87,7 @@ function solution(A) {
 # Solution 2 : while문 2번과 count를 하나씩 증가시키는 풀이
 * 사용언어 : javascript
 * 점수 : 100
-* 시간 복잡도 : **O(N**2)** 
+* 시간 복잡도 : **O(N<sup>2</sup>)** 
 * 풀이
 ```javascript
 function solution(A) {
