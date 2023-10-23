@@ -1,78 +1,78 @@
+# Fibonacci numbers
+## Reading Material
+* [[reference]](https://codility.com/media/train/11-Fibonacci.pdf)
+### Fibonacci numbers
+> 피보나치수는 다음과 같이 연속된 정수들이 재귀적으로 정의된다. 피보나치수의 첫 두 숫자는 0과 1이고, 다음 수는 앞의 두 수의 합으로 이루어져 있다.
+> ![image](https://github.com/Pyotato/codility_practice/assets/102423086/2a824b0b-bb66-4940-8031-8538ef2c8524)
+* 첫 12개의 피보나치는 아래와 같다.
+![image](https://github.com/Pyotato/codility_practice/assets/102423086/8f0d99cd-1676-443b-92b0-28c0ab4931d8)
 
-# codility_practice
+### Logic
+* 정의에 의해서 숫자를 재귀적으로 나타낼 때 매우 느리다는 점을 알아차릴 수 있다. <i>F</i><sub>n</sub>의 정의에 의하면 피보나치 수열의 이전 숫자를 반복적으로 가르킨다.
 
-# What
+#### 예시 1 : 재귀적으로 피보나치수 구하기
+`※원본의 코드는 파이썬으로 작성되어있다.`
+```javascript
+function fibonacci(n){
+  if(n <= 1) return n;
+  return fibonacci(n-1)+fibonacci(n-2);
+}
+```
+> * 위의 알고리즘은 <i>F</i><sub>n</sub>을 1씩 증가시키면서 계산하므로 2<sup>n</sup>으로 증가하는 비효율적인 알고리즘이 된다.
 
-> This repository contains notes and solutions from [Codility](https://app.codility.com/programmers/)
-> 🤭 Selection of Language : JS(primarily)
+#### 예시 2 : 동적프로그래밍을 활용해 피보나치수 구하기 : <i>O</i>(n)
+`※원본의 코드는 파이썬으로 작성되어있다.`
+```javascript
+function fibonacciDynamic(n){
+  let fib = new Array(n+2).fill(0);
+  fib[1] = 1;
+  for(let i =2 ; i<n+1; i++){
+    fib[i] = fib[i-1] + fib[i-2]
+  }
+  return fib[n];
+}
+```
 
-# Why
+#### 예시 3 : 피보나치 수를 구하기 위한 더 빠른 알고리즘들
+> * 피보나치수는 <i>O</i>(log n)시간으로 찾을 수도 있다. 하지만 이를 위해서는 다음과 같은 공식으로 행렬곱셈을 사용해야한다.
 
-> 🌟 Keep track of solutions to improve use of Javascript itself
-> 🌟 Boost problem-solving abilities
-> 🌟 Improve time-complexity
-> ![download](https://github.com/Pyotato/codility_practice/assets/102423086/b05a0ca2-f8bd-49e2-bfb9-049e8d0eeea9)
+![image](https://github.com/Pyotato/codility_practice/assets/102423086/7c4f39a5-6ada-4b67-8105-a3366d055035)
 
-# When
+다음과 같은 공식을 활용하면 더 빨리 해를 구할 수 있다. 
 
-> Commenced : 2023-09-12
+![image](https://github.com/Pyotato/codility_practice/assets/102423086/caa50a35-24cc-45c7-8bdc-f5cbd4600905)
 
-# How
 
-> * Solve 2 ~ 3 questions within the given time per day.
-> * if solved : Find room for Improvement.
-> * else : After the time runs up, search for solutions, mark as failed & try solving it again without referencing sources.
-> * Commit rule example: `Lesson 5 [ Prefix Sums ]: CountDiv [👉to report]`
-> * All examples in reading materials should be converted python => javascript
-> * After solving all lessons, add translations for each reading material & problems.
+##### 구현
+* 시간복잡도와 공간복잡도 *O*(log n)인 풀이 :
+`※원본의 코드는 파이썬으로 작성되어있다.`
+```javascript
+function binarySearch(A,x){
+  const n = A.length;
+  let beg = 0, let end = n-1;
+  let result = -1;
+  while (beg <= end){
+    let mid = (beg+end)/2;
+    if(A[mid] <= x){
+      beg = mid+1;
+      result = mid;
+    }
+    else end = mid-1;
+  }
+  return result;
+}
+
+```
+
+* 위의 풀이는 가장 큰 원소를 x보다 작거나 같은 횟수로 찾을 수 있다. 반복문을 통해 순회를 해야하는 원소의 개수(선택지)는 반으로 줄어드므로, 시간복잡도는 <i>O</i>(log n)이 된다. 위의 구현 방식은 이진탐색에 있어서 모든 경우에 통용된다. 다만 while문 안의 조건만 변경해주면 된다.
+
+#### 예시 4 : 두 수의 합이 피보나치 수인지 여부
+> x<sub>0</sub>, x<sub>1</sub>, . . . , x<sub>n−1</sub>이고 1 <= x<sub>i</sub>, <= m <= 1,000,000 일 때, 두 수의 합이 피보나치 수인지 구하라
+
+* **Sol** <i>O</i>(n+m)인 경우
+* 피보나치의 수가 최대인 m보다 작은 경우는 31개 뿐이다. 모든 짝을 고려할 때 k <= m이면 k번째 배열의 인덱스를 두수의 합이 피보나치 수라고 표시를하면된다. 즉, 각 숫자 x<sub>i</sub>에 관해 그 수가 두 피보나치 수의 합인지 여부를 상수시간인 <i>O</i>(n+m)로 구할 수 있다. 
+
 
 # Sol
 
-1. [TapeEquilibrium](https://app.codility.com/demo/results/trainingBUVRCX-7VQ/) : [`Sol2`](https://app.codility.com/demo/results/trainingBVN2K9-XM5/)
-2.  [ [Lesson 16 Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [MaxNonoverlappingSegments](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/MaxNonoverlappingSegments.md) [👉to report](https://app.codility.com/demo/results/trainingNS8Z8V-MYY/)
-3. [MissingInteger](https://app.codility.com/demo/results/training9MRDT6-9R7/)
-4. [BinaryGap](https://app.codility.com/demo/results/trainingRJQHQP-N9V/)
-5. [CyclicRotation](https://app.codility.com/demo/results/trainingC4NUZ7-AFS/)
-6. [FrogRiverOne](https://app.codility.com/demo/results/trainingXZ7PP2-WTN/)
-7. [PassingCars](https://app.codility.com/demo/results/trainingWYBJ3T-C6A/)
-8. [Distinct](https://app.codility.com/demo/results/trainingANYW26-QHG/)
-9. [CountDiv](https://app.codility.com/demo/results/training9GGS4C-746/)
-10. [MaxProductOfThree](https://app.codility.com/demo/results/training6JW8AD-5N6/)
-11. [Brackets](https://app.codility.com/demo/results/trainingC65JAQ-KDQ/)
-12. [PermCheck](https://app.codility.com/demo/results/trainingYCZ67S-YTV/)
-13. [Fish](https://app.codility.com/demo/results/training6A4RR4-NBF/)
-14. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [NumberSolitaire](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/NumberSolitaire.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
-15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
-16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
-17. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [FibFrog](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/FibFrog.md) [👉to report](https://app.codility.com/demo/results/training4NST5Q-BBG/)
-18. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [MinAbsSum](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/MinAbsSum.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
-19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
-20. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [AbsDistinct](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/AbsDistinct.md) [👉to report](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
-21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
-22. [CountNonDivisible](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
-23. [OddOccurrencesInArray](https://app.codility.com/demo/results/trainingFVD2GP-4HF/)
-24. [PermMissingElem](https://app.codility.com/demo/results/training6U4Y97-NBZ/)
-25.  [ [Lesson 16 Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [TieRopes](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/TieRopes.md) [👉to report](https://app.codility.com/demo/results/training5UV2KD-98X/) 
-26. [MinAvgTwoSlice](https://app.codility.com/demo/results/trainingE3ZNZM-3HT/)
-27. [Ladder](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
-28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
-29. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountDistinctSlices](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountDistinctSlices.md) [👉to report](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
-30. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [MinMaxDivision](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/MinMaxDivision.md) [👉to report](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
-31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
-32. [EquiLeader](https://app.codility.com/demo/results/training2ANQCA-ZNA/)
-33. [MaxProfit](https://app.codility.com/demo/results/training2Z8HE2-5VQ/)
-34. [CountFactors](https://app.codility.com/demo/results/trainingT634AA-BDC/)
-35. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [NailingPlanks](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/NailingPlanks.md) [👉to report](https://app.codility.com/demo/results/trainingGDBM2S-NKR/) 
-36.  [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountTriangles](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountTriangles.md) [👉to report](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
-37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
-38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
-39. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [MinAbsSumOfTwo](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/MinAbsSumOfTwo.md) [👉to report](https://app.codility.com/demo/results/training437UXH-2TK/)
-40. [Lesson 6 [ Sorting ]: NumberOfDiscIntersections](https://app.codility.com/demo/results/training9N372J-G9V/)
-41. [Lesson 9 [ Maximum slice problem ]: MaxSliceSum](https://app.codility.com/demo/results/trainingK8EJD8-S6H/)
-42. [Lesson 7 [ Stacks and Queues ]: StoneWall](https://app.codility.com/demo/results/training4Q23DG-B2K/)
-43. [Lesson 9 [ Maximum slice problem ]: MaxDoubleSliceSum](https://app.codility.com/demo/results/trainingEWTQGP-5Y5/)
-44. [Lesson 10 [ Prime and composite numbers ]: MinPerimeterRectangle](https://app.codility.com/demo/results/trainingPXCEXU-F7X/)
-45. [Lesson 10 [ Prime and composite numbers ]: Flags](https://app.codility.com/demo/results/training5B5Q46-DSE/)
-46. [Lesson 12 [ Euclidean algorithm ]: CommonPrimeDivisors](https://app.codility.com/demo/results/training4V3Q5A-J6T/)
-47. [ Lesson 10 [ Prime and composite numbers ]: 
-Peaks](https://app.codility.com/demo/results/trainingHU9KKU-WNY/)
+1. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [FibFrog](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/FibFrog.md) [👉to report](https://app.codility.com/demo/results/training4NST5Q-BBG/)
