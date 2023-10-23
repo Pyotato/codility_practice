@@ -88,3 +88,4 @@ function check(A,k){
 # Sol
 
 1. [ [Lesson 15 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [MinMaxDivision](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/MinMaxDivision.md) [👉to report](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
+2. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [NailingPlanks](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/NailingPlanks.md) [👉to report](https://app.codility.com/demo/results/trainingGDBM2S-NKR/) 
