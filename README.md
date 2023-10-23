@@ -44,7 +44,7 @@
 14. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [NumberSolitaire](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/NumberSolitaire.md) [👉to report](https://app.codility.com/demo/results/trainingA7CPB4-DCS/)
 15. [MaxCounters](https://app.codility.com/demo/results/training2DD23T-Z8T/)
 16. [Triangle](https://app.codility.com/demo/results/trainingHPNYED-VFM/)
-17. [FibFrog](https://app.codility.com/demo/results/training4NST5Q-BBG/)
+17. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [FibFrog](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/FibFrog.md) [👉to report](https://app.codility.com/demo/results/training4NST5Q-BBG/)
 18. [ [Lesson 17 Dynamic programming](https://github.com/Pyotato/codility_practice/tree/Dynamic-programming) ]: [MinAbsSum](https://github.com/Pyotato/codility_practice/blob/Dynamic-programming/MinAbsSum.md) [👉to report](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
 19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
 20. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [AbsDistinct](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/AbsDistinct.md) [👉to report](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
@@ -57,7 +57,6 @@
 27. [Ladder](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
 28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
 29. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountDistinctSlices](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountDistinctSlices.md) [👉to report](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
-
 30. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [MinMaxDivision](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/MinMaxDivision.md) [👉to report](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
 31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
 32. [EquiLeader](https://app.codility.com/demo/results/training2ANQCA-ZNA/)
