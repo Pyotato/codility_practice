@@ -1,7 +1,7 @@
 # MinAbsSum
 * [Report summary Link](https://app.codility.com/demo/results/trainingE6KYAY-7NK/)
 # Task Details
-> 정수 배열이 주어졌을때, 합의 절대값이 최소가 되는 경우를 구하.
+> 정수 배열이 주어졌을때, 합의 절대값이 최소가 되는 경우를 구하라.
 # Task description
 > A라는 정수로 이루어진 배열과 N개의 연속된 set {-1,1}를 val(A,S)로 다음과 같이 정의할 수 있다.
 
