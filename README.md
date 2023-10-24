@@ -43,29 +43,6 @@ function fibonacciDynamic(n){
 ![image](https://github.com/Pyotato/codility_practice/assets/102423086/caa50a35-24cc-45c7-8bdc-f5cbd4600905)
 
 
-##### 구현
-* 시간복잡도와 공간복잡도 *O*(log n)인 풀이 :
-`※원본의 코드는 파이썬으로 작성되어있다.`
-```javascript
-function binarySearch(A,x){
-  const n = A.length;
-  let beg = 0, let end = n-1;
-  let result = -1;
-  while (beg <= end){
-    let mid = (beg+end)/2;
-    if(A[mid] <= x){
-      beg = mid+1;
-      result = mid;
-    }
-    else end = mid-1;
-  }
-  return result;
-}
-
-```
-
-* 위의 풀이는 가장 큰 원소를 x보다 작거나 같은 횟수로 찾을 수 있다. 반복문을 통해 순회를 해야하는 원소의 개수(선택지)는 반으로 줄어드므로, 시간복잡도는 <i>O</i>(log n)이 된다. 위의 구현 방식은 이진탐색에 있어서 모든 경우에 통용된다. 다만 while문 안의 조건만 변경해주면 된다.
-
 #### 예시 4 : 두 수의 합이 피보나치 수인지 여부
 > x<sub>0</sub>, x<sub>1</sub>, . . . , x<sub>n−1</sub>이고 1 <= x<sub>i</sub>, <= m <= 1,000,000 일 때, 두 수의 합이 피보나치 수인지 구하라
 
