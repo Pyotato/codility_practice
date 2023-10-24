@@ -54,7 +54,7 @@
 24. [PermMissingElem](https://app.codility.com/demo/results/training6U4Y97-NBZ/)
 25.  [ [Lesson 16 Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [TieRopes](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/TieRopes.md) [👉to report](https://app.codility.com/demo/results/training5UV2KD-98X/) 
 26. [MinAvgTwoSlice](https://app.codility.com/demo/results/trainingE3ZNZM-3HT/)
-27. [Ladder](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
+27. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [Ladder](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/Ladder.md) [👉to report](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
 28. [Nesting](https://app.codility.com/demo/results/trainingXGZ2PV-KQY/)
 29. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountDistinctSlices](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountDistinctSlices.md) [👉to report](https://app.codility.com/demo/results/trainingKEDT6K-9H2/)
 30. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [MinMaxDivision](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/MinMaxDivision.md) [👉to report](https://app.codility.com/demo/results/trainingWDXGG6-4SJ/)
