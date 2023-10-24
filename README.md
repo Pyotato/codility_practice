@@ -53,3 +53,4 @@ function fibonacciDynamic(n){
 # Sol
 
 1. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [FibFrog](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/FibFrog.md) [👉to report](https://app.codility.com/demo/results/training4NST5Q-BBG/)
+2. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [Ladder](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/Ladder.md) [👉to report](https://app.codility.com/demo/results/trainingKJUZG3-6XK/)
