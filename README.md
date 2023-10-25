@@ -65,7 +65,7 @@
 35. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [NailingPlanks](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/NailingPlanks.md) [👉to report](https://app.codility.com/demo/results/trainingGDBM2S-NKR/) 
 36.  [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountTriangles](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountTriangles.md) [👉to report](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
 37. [Lesson 11 [ Sieve of Eratosthenes ]: CountSemiprimes](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
-38. [Lesson 12 [ Euclidean algorithm ]: ChocolatesByNumbers](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
+38. [ [Lesson 12 Euclidean algorithm](https://github.com/Pyotato/codility_practice/tree/Euclidean-algorithm) ]: [ChocolatesByNumbers](https://github.com/Pyotato/codility_practice/blob/Euclidean-algorithm/ChocolatesByNumbers.md) [👉to report](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
 39. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [MinAbsSumOfTwo](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/MinAbsSumOfTwo.md) [👉to report](https://app.codility.com/demo/results/training437UXH-2TK/)
 40. [Lesson 6 [ Sorting ]: NumberOfDiscIntersections](https://app.codility.com/demo/results/training9N372J-G9V/)
 41. [Lesson 9 [ Maximum slice problem ]: MaxSliceSum](https://app.codility.com/demo/results/trainingK8EJD8-S6H/)
