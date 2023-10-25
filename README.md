@@ -78,4 +78,4 @@ a<sub>i+1</sub> * b<sub>i+1</sub> >= 2 * a<sub>i</sub> * b<sub>i</sub>*b<sub>1</
 이고 따라서 O(log n)만에 문제를 해결할 수 있다. 
 # Sol
 
-1. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [ChocolatesByNumbers](https://github.com/Pyotato/codility_practice/blob/Fibonacci-numbers/ChocolatesByNumbers.md) [👉to report](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
+1. [ [Lesson 12 Fibonacci numbers](https://github.com/Pyotato/codility_practice/tree/Fibonacci-numbers) ]: [ChocolatesByNumbers](https://github.com/Pyotato/codility_practice/blob/Euclidean-algorithm/ChocolatesByNumbers.md) [👉to report](https://app.codility.com/demo/results/training7WBCFJ-YK2/)
