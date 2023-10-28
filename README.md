@@ -49,7 +49,7 @@
 19. [FrogJmp](https://app.codility.com/demo/results/trainingDXBGGK-CKN/)
 20. [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [AbsDistinct](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/AbsDistinct.md) [👉to report](https://app.codility.com/demo/results/trainingGRMB69-7DY/)
 21. [GenomicRangeQuery](https://app.codility.com/demo/results/trainingYHMFEH-43G/)
-22. [ [Lesson 11 Sieve of Eratosthenes](https://github.com/Pyotato/codility_practice/tree/Sieve-of-Eratosthenes) ]: [CountDistinctSlices](https://github.com/Pyotato/codility_practice/blob/Sieve-of-Eratosthenes/CountDistinctSlices.md) [👉to report](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
+22. [ [Lesson 11 Sieve of Eratosthenes](https://github.com/Pyotato/codility_practice/tree/Sieve-of-Eratosthenes) ]: [CountNonDivisible](https://github.com/Pyotato/codility_practice/blob/Sieve-of-Eratosthenes/CountNonDivisible.md) [👉to report](https://app.codility.com/demo/results/trainingUEAHXD-NDW/)
 23. [OddOccurrencesInArray](https://app.codility.com/demo/results/trainingFVD2GP-4HF/)
 24. [PermMissingElem](https://app.codility.com/demo/results/training6U4Y97-NBZ/)
 25.  [ [Lesson 16 Greedy algorithms](https://github.com/Pyotato/codility_practice/tree/Greedy-algorithms) ]: [TieRopes](https://github.com/Pyotato/codility_practice/blob/Greedy-algorithms/TieRopes.md) [👉to report](https://app.codility.com/demo/results/training5UV2KD-98X/) 
