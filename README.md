@@ -61,7 +61,7 @@
 31. [Dominator](https://app.codility.com/demo/results/trainingP34T2F-R4C/)
 32. [EquiLeader](https://app.codility.com/demo/results/training2ANQCA-ZNA/)
 33. [MaxProfit](https://app.codility.com/demo/results/training2Z8HE2-5VQ/)
-34. [CountFactors](https://app.codility.com/demo/results/trainingT634AA-BDC/)
+34. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Prime-and-composite-numbers) ]: [CountFactors](https://github.com/Pyotato/codility_practice/blob/Prime-and-composite-numbers/CountFactors.md) [👉to report](https://app.codility.com/demo/results/trainingT634AA-BDC/)
 35. [ [Lesson 14 Binary search algorithm](https://github.com/Pyotato/codility_practice/tree/Binary-search-algorithm) ]: [NailingPlanks](https://github.com/Pyotato/codility_practice/blob/Binary-search-algorithm/NailingPlanks.md) [👉to report](https://app.codility.com/demo/results/trainingGDBM2S-NKR/) 
 36.  [ [Lesson 15 Caterpillar method](https://github.com/Pyotato/codility_practice/tree/Caterpillar-method) ]: [CountTriangles](https://github.com/Pyotato/codility_practice/blob/Caterpillar-method/CountTriangles.md) [👉to report](https://app.codility.com/demo/results/trainingUVNVMX-M3Z/)
 37. [ [Lesson 11 Sieve of Eratosthenes](https://github.com/Pyotato/codility_practice/tree/Sieve-of-Eratosthenes) ]: [CountSemiprimes](https://github.com/Pyotato/codility_practice/blob/Sieve-of-Eratosthenes/CountSemiprimes.md) [👉to report](https://app.codility.com/demo/results/trainingZWEUEV-XXK/)
