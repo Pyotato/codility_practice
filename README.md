@@ -71,7 +71,7 @@
 41. [Lesson 9 [ Maximum slice problem ]: MaxSliceSum](https://app.codility.com/demo/results/trainingK8EJD8-S6H/)
 42. [Lesson 7 [ Stacks and Queues ]: StoneWall](https://app.codility.com/demo/results/training4Q23DG-B2K/)
 43. [Lesson 9 [ Maximum slice problem ]: MaxDoubleSliceSum](https://app.codility.com/demo/results/trainingEWTQGP-5Y5/)
-44. [Lesson 10 [ Prime and composite numbers ]: MinPerimeterRectangle](https://app.codility.com/demo/results/trainingPXCEXU-F7X/)
+44. [ [Lesson 10 Prime and composite numbers](https://github.com/Pyotato/codility_practice/tree/Prime-and-composite-numbers) ]: [MinPerimeterRectangle](https://github.com/Pyotato/codility_practice/blob/Prime-and-composite-numbers/MinPerimeterRectangle.md) [👉to report](https://app.codility.com/demo/results/trainingPXCEXU-F7X/)
 45. [Lesson 10 [ Prime and composite numbers ]: Flags](https://app.codility.com/demo/results/training5B5Q46-DSE/)
 46.   [[Lesson 12 Euclidean algorithm](https://github.com/Pyotato/codility_practice/tree/Euclidean-algorithm) ]: [CommonPrimeDivisors](https://github.com/Pyotato/codility_practice/blob/Euclidean-algorithm/CommonPrimeDivisors.md) [👉to report](https://app.codility.com/demo/results/training4V3Q5A-J6T/)
 47. [ Lesson 10 [ Prime and composite numbers ]: 
