@@ -74,5 +74,4 @@
 44. [ [Lesson 10 Prime and composite numbers](https://github.com/Pyotato/codility_practice/tree/Prime-and-composite-numbers) ]: [MinPerimeterRectangle](https://github.com/Pyotato/codility_practice/blob/Prime-and-composite-numbers/MinPerimeterRectangle.md) [👉to report](https://app.codility.com/demo/results/trainingPXCEXU-F7X/)
 45. [ [Lesson 10 Prime and composite numbers](https://github.com/Pyotato/codility_practice/tree/Prime-and-composite-numbers) ]: [Flags](https://github.com/Pyotato/codility_practice/blob/Prime-and-composite-numbers/Flags.md) [👉to report](https://app.codility.com/demo/results/training5B5Q46-DSE/)
 46.   [[Lesson 12 Euclidean algorithm](https://github.com/Pyotato/codility_practice/tree/Euclidean-algorithm) ]: [CommonPrimeDivisors](https://github.com/Pyotato/codility_practice/blob/Euclidean-algorithm/CommonPrimeDivisors.md) [👉to report](https://app.codility.com/demo/results/training4V3Q5A-J6T/)
-47. [ Lesson 10 [ Prime and composite numbers ]: 
-Peaks](https://app.codility.com/demo/results/trainingHU9KKU-WNY/)
+47. [ [Lesson 10 Prime and composite numbers](https://github.com/Pyotato/codility_practice/tree/Prime-and-composite-numbers) ]: [Peaks](https://github.com/Pyotato/codility_practice/blob/Prime-and-composite-numbers/Peaks.md) [👉to report](https://app.codility.com/demo/results/trainingHU9KKU-WNY/)
